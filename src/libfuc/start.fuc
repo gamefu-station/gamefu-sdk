@@ -1,7 +1,7 @@
 [extern]
-function main() -> i32;
+word main();
 
-function _gfusdk_start() -> i32 {
-    var exit_code = main();
+word _gfusdk_start() {
+    word exit_code = main();
     return exit_code;
 }
